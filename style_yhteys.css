@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+}
+
+p.a {
+  zoom: normal;
+}
+
+p.b {
+  zoom: 75%;
+}
+
+.fa {
+    padding: 16px;
+    margin: 11px;
+}
+
+p1 {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+        .fa-square-instagram
+        {
+            font-size: 55px;
+            color: #e11d74;
+            padding: 20px 40px;
+            margin: -100px -15px 0px 1580px;
+        }
+
+
+        
+        .fa-square-facebook
+        {
+            font-size: 55px;
+            color: blue;
+            padding-left: 0px 0px;
+            margin-left: 0px 0px;
+        }
+
+.banner {
+    background-image: url(kuvat/hauva1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.banner__content {
+    margin: -22px 100px 0px;
+}
+
+body {
+  /* The image used */
+  background: snow;
+}
+
+/* Navbar */
+
+.nav{
+    display: flex;
+    font-family: Ink Free;
+    align-items: center;
+    color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 76%;
+}
+
+/* Navbar links */
+.topnav a {
+  color: #f2f2f2;
+  font-size: 27px; 
+}
+
+.topnav a:hover {
+  color: blanchedalmond;
+}
+
+/* Links inside the navbar */
+
+.logo{
+    width: 260px;
+    margin: 10px 50px;
+    transition: 1.5s;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 120px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+a {
+  text-decoration: inherit;
+  transition: all 0.5s ease;
+}
+a.active,a:hover{
+    transition: .3s;
+}
+h1{
+    color: #d48b48;
+    font-size: 70px;
+    padding: 110px 80px 160px 890px;
+    font-family: Mad Galaxy Demo;
+    line-height: 50px;
+    text-shadow: 4px 5px black;
+}
+
+h2{
+    color: snow;
+    font-size: 29px;
+    padding: 30px 490px 70px 660px;
+    font-family: sans-serif;
+    line-height: 40px;
+    text-shadow: 2px 2px black;
+    background: grey;
+    opacity: 0.8;
+
+}
+
+h3{
+    color: snow;
+    font-size: 28px;
+    padding: 20px 490px 40px 655px;
+    font-family: sans-serif;
+    line-height: 15px;
+    text-shadow: 2px 2px black;
+    background: grey;
+    opacity: 0.8;
+}
+
+h4{
+    color: #d48b48;
+    font-size: 48px;
+    padding: 160px 80px 110px 710px;
+    font-family: Mad Galaxy Demo;
+    line-height: 50px;
+    text-shadow: 4px 5px black;
+}
+
+button {
+    padding: 30px 90px 30px;
+    font-size: 40px;
+    font-family: Mad Galaxy Demo;
+    border-radius: 12000px;
+    background-color: turquoise;
+    margin: 100px 800px 150px;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 3px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+footer{
+    font-family: sans-serif;
+    background: white;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
